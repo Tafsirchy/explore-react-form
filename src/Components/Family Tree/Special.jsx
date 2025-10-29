@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 const Special = ({ name, asset }) => {
-  const newAsset = useContext(AssetContext);
+  const newAsset = useContext(asset);
 
   console.log(newAsset);
 
