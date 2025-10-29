@@ -4,6 +4,7 @@ import "./familyTree.css";
 
 const FamilyTree = () => {
   const asset = "diamond";
+  console.log(asset);
 
   return (
     <div className="family-tree">
