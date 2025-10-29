@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
+import Special from "./Special";
 
-const Cousin = ({name}) => {
-    return (
-        <div>
-            <h3>{name}</h3>
-        </div>
-    );
+const Cousin = ({ name, asset }) => {
+  return (
+    <div>
+      <h3>{name}</h3>
+      {name === "Uurrumma" && <Special asset={asset}></Special>}
+    </div>
+  );
 };
 
 export default Cousin;

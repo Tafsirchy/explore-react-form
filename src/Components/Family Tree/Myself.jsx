@@ -1,13 +1,13 @@
-import React from 'react';
-import Special from './Special';
+import React from "react";
+import Special from "./Special";
 
-const Myself = () => {
-    return (
-        <div>
-            <h3>My self</h3>
-            <Special></Special>
-        </div>
-    );
+const Myself = ({ asset }) => {
+  return (
+    <div>
+      <h3>My self</h3>
+      <Special asset={asset}></Special>
+    </div>
+  );
 };
 
 export default Myself;
